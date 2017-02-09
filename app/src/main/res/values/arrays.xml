@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_items">
+        <item>SMS</item>
+        <item>CALL</item>
+    </string-array>
+    <string-array name="menu_sms">
+        <item>...</item>
+        <item>BlockIt: Numbers</item>
+        <item>BlockIt: Words</item>
+        <item>History</item>
+    </string-array>
+    <string-array name="menu_call">
+        <item>...</item>
+        <item>BlockIt: Numbers</item>
+        <item>History</item>
+    </string-array>
+
+    <string-array name="choices">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+</resources>

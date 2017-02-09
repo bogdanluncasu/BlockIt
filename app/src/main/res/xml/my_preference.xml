@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory
+        android:title="Anonymous">
+        <ListPreference
+            android:title="Do you want to block anonymous calls?"
+            android:key="acall"
+            android:defaultValue="No"
+            android:entries="@array/choices"
+            android:entryValues="@array/choices"/>
+
+        <ListPreference
+            android:title="Do you want to block anonymous sms?"
+            android:key="asms"
+            android:defaultValue="No"
+            android:entries="@array/choices"
+            android:entryValues="@array/choices"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Unknown">
+        <ListPreference
+            android:title="Do you want to block unknown calls ?"
+            android:key="ucall"
+            android:defaultValue="No"
+            android:entries="@array/choices"
+            android:entryValues="@array/choices"/>
+
+        <ListPreference
+            android:title="Do you want to block unknown sms?"
+            android:key="usms"
+            android:defaultValue="No"
+            android:entries="@array/choices"
+            android:entryValues="@array/choices"/>
+    </PreferenceCategory>
+</PreferenceScreen>

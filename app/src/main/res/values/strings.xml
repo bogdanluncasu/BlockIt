@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BlockIt</string>
+    <string name="facebook_app_id">352589091785446</string>
+    <string name="fb_login_protocol_scheme">fb352589091785446</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="offline_mode">Offline Mode</string>
+    <string name="welcome">Welcome</string>
+    <string name="save">Save</string>
+    <string name="add">Add</string>
+</resources>

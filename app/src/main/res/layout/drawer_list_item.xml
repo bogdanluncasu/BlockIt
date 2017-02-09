@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ImageView
+        android:id="@+id/text_image"
+        android:layout_width="0px"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/text_element"
+        android:layout_width="0px"
+        android:layout_height="70dp"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_height="20dp"
+        android:layout_width="0px"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="0"
+        android:id="@+id/blockit_counter"
+        android:textColor="@color/cardview_light_background"
+        android:background="@drawable/rounded_corners"
+
+        />
+
+</LinearLayout>
